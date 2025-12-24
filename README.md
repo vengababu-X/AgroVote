@@ -21,9 +21,9 @@ machine learning models.
 
 ## 🧠 System Block Diagram
 
-![System Block Diagram](assets/BLOCK DIAGRAM1.jpg)
+![System Block Diagram](assets/BLOCK%20DIAGRAM1.jpg)
 
-![System Block Diagram - Extended](assets/BLOCK DIAGRAM2.jpg)
+![System Block Diagram - Extended](assets/BLOCK%20DIAGRAM2.jpg)
 
 ### Description
 
