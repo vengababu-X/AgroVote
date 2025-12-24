@@ -108,6 +108,7 @@ transmitted to the backend system for analysis.
 ![Demo Output 1](assets/Demo%20output1.jpg)
 
 ![Demo Output 2](assets/Demo%20output2.jpg)
+
 This section shows a sample visualization of crop recommendation results
 and environmental insights.  
 *(Prototype / demonstration purpose)*
