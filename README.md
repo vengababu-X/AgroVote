@@ -128,10 +128,10 @@ and environmental insights.
 ---
 
 🌱 Applications
--Smart Agriculture
--Precision Farming
--Crop Planning Support
--Academic and Research Projects
+- Smart Agriculture
+- Precision Farming
+- Crop Planning Support
+- Academic and Research Projects
 
 ---
 ## 📁 Project Structure
