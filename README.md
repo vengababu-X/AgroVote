@@ -1,13 +1,7 @@
-<p align="center">
-  <img src="assets/BLOCK DIAGRAM1.jpg" width="700"/>
-</p>
+# 🌾 AGROVOTE
 
-<h1 align="center">🌾 AgroVote</h1>
-
-<p align="center">
-A Hybrid IoT and Machine Learning Approach for Crop Recommendation  
-Using a Voting Ensemble Model
-</p>
+### A Hybrid IoT and Machine Learning Approach for Crop Recommendation  
+### Using a Voting Ensemble Model
 
 ---
 
@@ -15,75 +9,86 @@ Using a Voting Ensemble Model
 
 AgroVote is a smart agriculture decision-support system designed to
 recommend the most suitable crop based on soil and environmental
-conditions. The system combines **IoT-based data collection** with
-**machine learning ensemble models** to improve the accuracy and
+conditions. The system integrates **IoT-based data collection** with
+**machine learning ensemble techniques** to improve the accuracy and
 reliability of crop recommendations.
 
-This project focuses on practical implementation rather than theoretical
-assumptions by integrating real-world parameters with data-driven models.
+The project focuses on practical implementation by combining real-world
+parameters such as soil nutrients and weather conditions with data-driven
+machine learning models.
 
 ---
 
 ## 🧠 System Block Diagram
 
-<p align="center">
-  <img src="assets/BLOCK DIAGRAM2.jpg" width="650"/>
-</p>
+![System Block Diagram](assets/BLOCK DIAGRAM1.jpg)
+
+![System Block Diagram - Extended](assets/BLOCK DIAGRAM2.jpg)
 
 ### Description
-The system block diagram shows how input parameters such as:
+
+The system block diagram illustrates how the following input parameters
+are collected and processed:
+
 - Nitrogen (N), Phosphorus (P), Potassium (K)
 - Temperature
 - Humidity
 - Rainfall
 - Soil pH
 
-are processed by a **Voting Ensemble Machine Learning Model** to generate
-a suitable crop recommendation.
+These parameters are analyzed using a **Voting Ensemble Machine Learning
+Model** to recommend the most suitable crop for cultivation.
 
 ---
 
 ## 🔁 System Workflow
 
-<p align="center">
-  <img src="assets/WORKFLOW1.jpg" width="650"/>
-</p>
+![System Workflow](assets/WORKFLOW1.jpg)
+
+![System Workflow - Detailed](assets/WORKFLOW2.jpg)
 
 ### Workflow Steps
+
 1. Collection of soil and environmental data  
 2. Data preprocessing and normalization  
-3. Prediction using multiple ML models  
-4. Decision-making using voting ensemble logic  
-5. Final crop recommendation  
+3. Feature extraction  
+4. Prediction using multiple machine learning models  
+5. Decision making using voting ensemble logic  
+6. Final crop recommendation  
 
 ---
 
 ## 🤖 Machine Learning Model
 
-<p align="center">
-  <img src="assets/MACHINE LEARNING1.jpg" width="650"/>
-</p>
+![Machine Learning Models](assets/MACHINE LEARNING1.jpg)
+
+![Random Forest Example](assets/MACHINE LEARNING2.jpg)
+
+![Ensemble Model](assets/MACHINE LEARNING3.jpg)
 
 ### Models Used
+
 - Decision Tree  
 - Naive Bayes  
 - Random Forest  
 
-The predictions from individual models are combined using a **Hard Voting
-Ensemble Classifier**, where the final output is selected based on
-majority voting.
-
-This approach reduces bias and improves prediction stability.
+The outputs of individual models are combined using a **Hard Voting
+Ensemble Classifier**, where the final prediction is selected based on
+majority voting. This approach reduces bias and improves prediction
+stability compared to single-model systems.
 
 ---
 
 ## 🔌 Sensors and Hardware
 
-<p align="center">
-  <img src="assets/SENSORS & HARDWARE1.jpg" width="650"/>
-</p>
+![Sensors and Hardware](assets/SENSORS & HARDWARE1.jpg)
+
+![Sensors and Hardware - Setup](assets/SENSORS & HARDWARE2.jpg)
+
+![Sensors and Hardware - Field View](assets/SENSORS & HARDWARE3.jpg)
 
 ### Hardware Components
+
 - ESP32 / NodeMCU  
 - Soil Moisture Sensor  
 - DHT11 / DHT22 (Temperature & Humidity)  
@@ -92,21 +97,21 @@ This approach reduces bias and improves prediction stability.
 - Breadboard  
 - Power Supply  
 
-The sensors collect real-time data which can be transmitted to the
-backend system for analysis.
+The sensors collect real-time environmental and soil data which can be
+transmitted to the backend system for analysis.
 
 ---
 
 ## 📊 Sample Output / Demo
 
-<p align="center">
-  <img src="assets/Demo output.jpg" width="700"/>
-</p>
+![Demo Output](assets/Demo output.jpg)
 
-This section shows a sample visualization of the crop recommendation
-output. The dashboard represents how environmental data and predictions
-can be presented to the user.
+![Demo Output 1](assets/Demo output1.jpg)
 
+![Demo Output 2](assets/Demo output2.jpg)
+
+This section shows a sample visualization of crop recommendation results
+and environmental insights.  
 *(Prototype / demonstration purpose)*
 
 ---
@@ -123,15 +128,44 @@ can be presented to the user.
 
 ---
 
-## 🌱 Applications
+## 📁 Project Structure
 
-- Smart Agriculture  
-- Precision Farming  
-- Crop Planning Support  
-- Academic and Research Projects  
+```text
+AgroVote/
+├── assets/
+│   ├── BLOCK DIAGRAM1.jpg
+│   ├── BLOCK DIAGRAM2.jpg
+│   ├── WORKFLOW1.jpg
+│   ├── WORKFLOW2.jpg
+│   ├── MACHINE LEARNING1.jpg
+│   ├── MACHINE LEARNING2.jpg
+│   ├── MACHINE LEARNING3.jpg
+│   ├── SENSORS & HARDWARE1.jpg
+│   ├── SENSORS & HARDWARE2.jpg
+│   ├── SENSORS & HARDWARE3.jpg
+│   ├── Demo output.jpg
+│   ├── Demo output1.jpg
+│   └── Demo output2.jpg
+│
+├── iot/
+│   └── esp32_sensors.ino
+│
+├── ml/
+│   ├── dataset.csv
+│   ├── train_model.py
+│   └── model.pkl
+│
+├── server/
+│   └── app.py
+│
+├── README.md
+├── requirements.txt
+└── LICENSE
 
----
+🌱 Applications
+●Smart Agriculture
+●Precision Farming
+●Crop Planning Support
+●Academic and Research Projects
 
-## 📜 License
 
-This project is licensed under the MIT License.
