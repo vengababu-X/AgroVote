@@ -60,12 +60,11 @@ Model** to recommend the most suitable crop for cultivation.
 
 ## 🤖 Machine Learning Model
 
-![Machine Learning Models](assets/MACHINE LEARNING1.jpg)
+![Machine Learning Models](assets/MACHINE%20LEARNING1.jpg)
 
-![Random Forest Example](assets/MACHINE LEARNING2.jpg)
+![Random Forest Example](assets/MACHINE%20LEARNING2.jpg)
 
-![Ensemble Model](assets/MACHINE LEARNING3.jpg)
-
+![Ensemble Model](assets/MACHINE%20LEARNING3.jpg)
 ### Models Used
 
 - Decision Tree  
@@ -81,11 +80,11 @@ stability compared to single-model systems.
 
 ## 🔌 Sensors and Hardware
 
-![Sensors and Hardware](assets/SENSORS & HARDWARE1.jpg)
+![Sensors and Hardware](assets/SENSORS%20%26%20HARDWARE1.jpg)
 
-![Sensors and Hardware - Setup](assets/SENSORS & HARDWARE2.jpg)
+![Sensors and Hardware - Setup](assets/SENSORS%20%26%20HARDWARE2.jpg)
 
-![Sensors and Hardware - Field View](assets/SENSORS & HARDWARE3.jpg)
+![Sensors and Hardware - Field View](assets/SENSORS%20%26%20HARDWARE3.jpg)
 
 ### Hardware Components
 
@@ -104,12 +103,11 @@ transmitted to the backend system for analysis.
 
 ## 📊 Sample Output / Demo
 
-![Demo Output](assets/Demo output.jpg)
+![Demo Output](assets/Demo%20output.jpg)
 
-![Demo Output 1](assets/Demo output1.jpg)
+![Demo Output 1](assets/Demo%20output1.jpg)
 
-![Demo Output 2](assets/Demo output2.jpg)
-
+![Demo Output 2](assets/Demo%20output2.jpg)
 This section shows a sample visualization of crop recommendation results
 and environmental insights.  
 *(Prototype / demonstration purpose)*
@@ -130,7 +128,7 @@ and environmental insights.
 
 ## 📁 Project Structure
 
-```text
+
 AgroVote/
 ├── assets/
 │   ├── BLOCK DIAGRAM1.jpg
@@ -162,10 +160,10 @@ AgroVote/
 ├── requirements.txt
 └── LICENSE
 
+
 🌱 Applications
 ●Smart Agriculture
 ●Precision Farming
 ●Crop Planning Support
 ●Academic and Research Projects
-
 
