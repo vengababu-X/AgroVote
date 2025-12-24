@@ -126,9 +126,16 @@ and environmental insights.
 
 ---
 
+🌱 Applications
+●Smart Agriculture
+●Precision Farming
+●Crop Planning Support
+●Academic and Research Projects
+
+---
 ## 📁 Project Structure
 
-
+```text
 AgroVote/
 ├── assets/
 │   ├── BLOCK DIAGRAM1.jpg
@@ -161,9 +168,5 @@ AgroVote/
 └── LICENSE
 
 
-🌱 Applications
-●Smart Agriculture
-●Precision Farming
-●Crop Planning Support
-●Academic and Research Projects
+
 
