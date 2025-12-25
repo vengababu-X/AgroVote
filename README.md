@@ -114,7 +114,28 @@ and environmental insights.
 *(Prototype / demonstration purpose)*
 
 ---
-## ▶️ How to Run the Project (Step-by-Step)
+
+## 🧩 Technologies Used
+
+- Python  
+- Flask  
+- Scikit-learn  
+- Pandas  
+- NumPy  
+- Arduino IDE  
+- ESP32  
+
+---
+
+🌱 Applications
+- Smart Agriculture
+- Precision Farming
+- Crop Planning Support
+- Academic and Research Projects
+
+---
+
+# ▶️ How to Run the Project (Step-by-Step)
 
 Follow these steps in order to run the AgroVote project locally.
 
@@ -142,27 +163,7 @@ Upload the ESP32 code located in the iot/ folder using Arduino IDE. Update WiFi 
 http://<server-ip>:5000/predict
 Step 5: Get the Output
 The server processes the data using a voting ensemble ML model and returns the recommended crop in JSON format
-
----
-## 🧩 Technologies Used
-
-- Python  
-- Flask  
-- Scikit-learn  
-- Pandas  
-- NumPy  
-- Arduino IDE  
-- ESP32  
-
----
-
-🌱 Applications
-- Smart Agriculture
-- Precision Farming
-- Crop Planning Support
-- Academic and Research Projects
-
----
+----
 ## 📁 Project Structure
 
 ```text
