@@ -114,7 +114,36 @@ and environmental insights.
 *(Prototype / demonstration purpose)*
 
 ---
+## ▶️ How to Run the Project (Step-by-Step)
 
+Follow these steps in order to run the AgroVote project locally.
+
+### Step 1: Install Requirements
+Make sure Python 3 is installed. From the project root directory, run:
+``bash
+pip install -r requirements.txt
+Step 2: Train the Machine Learning Model
+Go to the ML folder and train the voting ensemble model:
+
+Bash
+cd ml
+python train_model.py
+This will generate the model.pkl file used for prediction.
+Step 3: Start the Backend Server
+Open a new terminal, navigate to the server folder, and run:
+
+``Bash
+cd server
+python app.py
+The Flask server will start on port 5000.
+Step 4: Run the IoT Module (Optional)
+Upload the ESP32 code located in the iot/ folder using Arduino IDE. Update WiFi credentials and server IP in the code. The ESP32 will send sensor data to:
+
+http://<server-ip>:5000/predict
+Step 5: Get the Output
+The server processes the data using a voting ensemble ML model and returns the recommended crop in JSON format
+
+---
 ## 🧩 Technologies Used
 
 - Python  
