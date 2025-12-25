@@ -146,14 +146,14 @@ pip install -r requirements.txt
 Step 2: Train the Machine Learning Model
 Go to the ML folder and train the voting ensemble model:
 
-Bash
+```Bash
 cd ml
 python train_model.py
 This will generate the model.pkl file used for prediction.
 Step 3: Start the Backend Server
 Open a new terminal, navigate to the server folder, and run:
 
-``Bash
+```Bash
 cd server
 python app.py
 The Flask server will start on port 5000.
