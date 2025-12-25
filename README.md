@@ -120,7 +120,7 @@ Follow these steps in order to run the AgroVote project locally.
 
 ### Step 1: Install Requirements
 Make sure Python 3 is installed. From the project root directory, run:
-``bash
+```bash
 pip install -r requirements.txt
 Step 2: Train the Machine Learning Model
 Go to the ML folder and train the voting ensemble model:
