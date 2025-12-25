@@ -141,19 +141,19 @@ Follow these steps in order to run the AgroVote project locally.
 
 ### Step 1: Install Requirements
 Make sure Python 3 is installed. From the project root directory, run:
-```bash
+```
 pip install -r requirements.txt
 Step 2: Train the Machine Learning Model
 Go to the ML folder and train the voting ensemble model:
 
-```Bash
+``
 cd ml
 python train_model.py
 This will generate the model.pkl file used for prediction.
 Step 3: Start the Backend Server
 Open a new terminal, navigate to the server folder, and run:
 
-```Bash
+``
 cd server
 python app.py
 The Flask server will start on port 5000.
