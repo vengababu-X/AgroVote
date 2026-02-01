@@ -162,8 +162,10 @@ Upload the ESP32 code located in the iot/ folder using Arduino IDE. Update WiFi 
 
 http://<server-ip>:5000/predict
 Step 5: Get the Output
-The server processes the data using a voting ensemble ML model and returns the recommended crop in JSON format
+Theserver processes the data using a voting ensemble ML model and returns the recommended crop in JSON format
+```
 ----
+
 ## 📁 Project Structure
 
 ```text
